@@ -8,7 +8,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @Client.on_message(filters.command('start'))
 async def start(c, m):
     owner = await c.get_users(int(Config.OWNER_ID))
-    owner_username = owner.username if owner.username else 'zautebot'
+    owner_username = owner.username if owner.username else 'Tamilbots'
 
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
@@ -17,20 +17,20 @@ async def start(c, m):
 
 `I can help you to get stylish fonts. Just send me some text and see magic.`
 
-** Developer by :** ❤️ ▷ [@ZauteKm](https://t.me/ZauteKm/346)
+** Developer by :** ❤️ ▷ [@TamilBots](https://t.me/TamilBots/84)
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url=f"https://t.me/iZaute/5"),
-            InlineKeyboardButton('Channel 📢', url=f"https://t.me/iZaute/6")
+            InlineKeyboardButton('👥 Group', url=f"https://t.me/TamiliniSupport"),
+            InlineKeyboardButton('Channel 📢', url=f"https://t.me/TamilBots")
             ],[
             InlineKeyboardButton('❤️ Credit', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/iZaute/8"),
-            InlineKeyboardButton('GitHup 🤣', url=f"https://github.com/ZauteKm")
+            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/TamilBots/84"),
+            InlineKeyboardButton('GitHup 🤣', url=f"https://github.com/ImSaravanakrish")
             ],[
-            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/ZauteKm")
+            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/channel/UCLkLnmYT0R6ahKlnXLOX0_Q")
         ]
     ]
     await m.reply_text(
