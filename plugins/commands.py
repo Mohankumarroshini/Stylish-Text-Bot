@@ -13,18 +13,18 @@ async def start(c, m):
     # start text
     text = f"""ʜᴇʏ! {m.from_user.mention(style='md')},
 
-** ɪ ᴀᴍ sᴛʏʟɪsʜ ғᴏɴᴛ ʙᴏᴛ ✍️**
+** ɪ ᴀᴍ sᴛʏʟɪsʜ ғᴏɴᴛ ʙᴏᴛ [✍️](https://telegra.ph/file/e74f06847fc777f55646f.jpg)**
 
 `ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ɢᴇᴛ sᴛʏʟɪsʜ ғᴏɴᴛs. ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴀɴᴅ sᴇᴇ ᴍᴀɢɪᴄ.`
 
-** ᴅᴇᴠʟᴏᴘᴇᴅ ʙʏ :** ❤️ ▷ [@TamilBots](https://telegra.ph/file/e74f06847fc777f55646f.jpg)
+** ᴅᴇᴠʟᴏᴘᴇᴅ ʙʏ :** ❤️ ▷ [@TamilBots](https://t.me/tamilbots)
 """
 
     # Buttons
     buttons = [
         [
             InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url=f"https://t.me/tamilsupport"),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴅʟ 📢', url=f"https://t.me/tamilbots")
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 📢', url=f"https://t.me/tamilbots")
             ],[
             InlineKeyboardButton('❤️ ᴄʀᴇᴅɪᴛs', url=f"https://t.me/{owner_username}"),
             InlineKeyboardButton('ʙᴏᴛ ʟɪsᴛ 🤖', url=f"https://t.me/TamilBots/84"),
