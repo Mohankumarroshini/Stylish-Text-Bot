@@ -11,27 +11,27 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'zautebot'
 
     # start text
-    text = f"""Hey! {m.from_user.mention(style='md')},
+    text = f"""ʜᴇʏ! {m.from_user.mention(style='md')},
 
-** I am Stylish Font Bot ✍️**
+** ɪ ᴀᴍ sᴛʏʟɪsʜ ғᴏɴᴛ ʙᴏᴛ ✍️**
 
-`I can help you to get stylish fonts. Just send me some text and see magic.`
+`ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ɢᴇᴛ sᴛʏʟɪsʜ ғᴏɴᴛs. ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴀɴᴅ sᴇᴇ ᴍᴀɢɪᴄ.`
 
-** Developer by :** ❤️ ▷ [@ZauteKm](https://t.me/ZauteKm/346)
+** ᴅᴇᴠʟᴏᴘᴇᴅ ʙʏ :** ❤️ ▷ [@TamilBots](https://telegra.ph/file/e74f06847fc777f55646f.jpg)
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url=f"https://t.me/iZaute/5"),
-            InlineKeyboardButton('Channel 📢', url=f"https://t.me/iZaute/6")
+            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url=f"https://t.me/tamilsupport"),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴅʟ 📢', url=f"https://t.me/tamilbots")
             ],[
-            InlineKeyboardButton('❤️ Credit', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/iZaute/8"),
-            InlineKeyboardButton('GitHup 🤣', url=f"https://github.com/ZauteKm")
-            ],[
-            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/ZauteKm")
-        ]
+            InlineKeyboardButton('❤️ ᴄʀᴇᴅɪᴛs', url=f"https://t.me/{owner_username}"),
+            InlineKeyboardButton('ʙᴏᴛ ʟɪsᴛ 🤖', url=f"https://t.me/TamilBots/84"),
+           
+            ],
+            
+        
     ]
     await m.reply_text(
         text=text,
